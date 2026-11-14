@@ -1,3 +1,4 @@
+
 # Logs
 logs
 *.log
@@ -7,9 +8,13 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
+# Dependencies
+node_modules/
+backend/node_modules/
+
+# Build files
+dist/
+dist-ssr/
 *.local
 
 # Editor directories and files
@@ -23,12 +28,9 @@ dist-ssr
 *.sln
 *.sw?
 
-# Backend dependencies
-backend/node_modules/
-
-# Environment variables
+# Environment variables (Never upload)
 .env
+.env.*
 backend/.env
+backend/.env.*
 
-# Uploaded files (optional)
-backend/uploads/cd
