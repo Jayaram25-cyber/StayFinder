@@ -8,6 +8,16 @@ The Hotel Management System provides an interface to manage hotel details effici
 
 The application uses React.js for the frontend, Node.js and Express.js for backend API development, and PostgreSQL for database management.
 
+## 🎥 Project Demo
+
+
+
+https://github.com/user-attachments/assets/ccb73748-1a43-469c-8bc1-f3c87bbdd9de
+
+
+
+
+
 ## 🚀 Features
 
 - **Hotel Management (CRUD):** Add, view, edit, and delete hotel details.
